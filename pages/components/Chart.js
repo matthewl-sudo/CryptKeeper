@@ -35,10 +35,9 @@ export default function Chart({xs, md, lg}) {
           height: 240,
         }}
       >
-        {/* <Title>Today</Title> */}
-        {/* <ResponsiveContainer width="90%" >
+        <Title>Today njfnj</Title>
+         <ResponsiveContainer width="100%" height="100%" >
           <LineChart
-            width="20%"
             data={data}
             margin={{
               top: 16,
@@ -76,10 +75,9 @@ export default function Chart({xs, md, lg}) {
               dot={false}
             />
           </LineChart>
-        </ResponsiveContainer> */}
-        <ViewCoin/>
+        </ResponsiveContainer>
       </Paper>
     </Grid>
-  
+
   );
 }
