@@ -3,8 +3,6 @@ import {Container, Grid, Link, Typography, Toolbar, Box,} from '@mui/material';
 import NavLayout from './components/NavLayout';
 import Chart from './components/Chart';
 import ViewCoin from './components/ViewCoin';
-// import Deposits from './components/Deposits';
-// import Orders from './components/Orders';
 
 function Copyright(props) {
   return (
@@ -29,7 +27,7 @@ export default function DashboardContent() {
             backgroundColor: (theme) =>
               theme.palette.mode === 'light'
                 ? theme.palette.grey[300]
-                : theme.palette.grey[900],
+                : theme.palette.grey[800],
             flexGrow: 1,
             height: '100vh',
             overflow: 'auto',
@@ -37,15 +35,12 @@ export default function DashboardContent() {
         >
           <Toolbar />
           <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
-            <Grid container spacing={3}>
+            
               {/* Chart */}
-             <Chart xs={12} md={8} lg={12}/>
+             <Chart xs={10} md={12} lg={8}/>
               {/* Recent Deposits */}
-              {/* <Deposits xs={12} md={4} lg={3}/> */}
               {/* Recent Orders */}
               {/* <ViewCoin/> */}
-              {/* <Orders xs={12}/> */}
-            </Grid>
             <Copyright sx={{ pt: 4 }} />
           </Container>
         </Box>

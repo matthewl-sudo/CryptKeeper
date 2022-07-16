@@ -20,7 +20,7 @@ export default function Elevation() {
                 bgcolor: 'background.default',
                 display: 'grid',
                 gap: 2,
-                height: 500,
+                height: "500",
               }}
             >
                 <Paper elevation={12}>
@@ -28,7 +28,7 @@ export default function Elevation() {
                          Error Page Not Found
                   </Typography>
                   <div sx={{ align: 'center'}}>
-                  <iframe src="https://giphy.com/embed/C21GGDOpKT6Z4VuXyn" width="100%" height="100%"  frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                  <iframe src="https://giphy.com/embed/C21GGDOpKT6Z4VuXyn" width="100%" height="100%"  frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
                   </div>
 
                 </Paper>
